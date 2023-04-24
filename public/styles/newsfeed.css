@@ -1,0 +1,110 @@
+.post-modifier-dropdown{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+.post-info{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+}
+
+.rtn-opt{
+    width: 30px;
+    color: white;
+    background: white;
+    padding: 5px;
+}
+
+.fw-800{
+    font-weight: 800;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+.like-rct{
+    color: blue;
+}
+
+.unlike-rct{
+    color: red;
+}
+
+.sad-rct{
+    color: rgb(15, 229, 15);
+}
+
+.haha-rct{
+    color: yellow;
+}
+
+.like-rct, .unlike-rct, .sad-rct, .haha-rct{
+    text-transform: capitalize;
+}
+
+.profile-list-view{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-image-small{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.share-popup-border{
+    border: 1px solid black;
+    margin: 0px 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.share-popup-container{
+    border-radius: 3px;
+}
+
+.share-popup{
+    z-index: 1;
+    width: 100%;
+    bottom: 0px;
+}
+
+.share-post-ctn{
+    border: 1px solid black;
+    padding: 10px 10px 5px 10px;
+}
+
+.share-textarea{
+    height: 80px;
+}
+
+.min-height-150{
+    min-height: 150px;
+}
+
+.border-radius-10{
+    border-radius: 10px;
+}
+
+@media(width < 760px){
+    .c-icon{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media(width < 560px){
+	.profile-list-view{
+		width: 30px;
+		height: 30px;
+	}
+
+    .c-icon{
+        width: 15px;
+        height: 15px;
+    }
+}

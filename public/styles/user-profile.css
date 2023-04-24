@@ -1,0 +1,96 @@
+.profile-label{
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+    color: white;
+}
+
+.user-profile{
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cover-label{
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    color: white;
+}
+
+.user-cover{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@media(width < 1000px){
+	.user-profile{
+        height: 230px;
+        width: 230px;
+    }
+    .profile-label{
+        bottom: 25px;
+        right: 55px;
+    }
+    .cover-label{
+        bottom: 10px;
+        right: 20px;
+    }
+    .cg-input{  /* custom global input */
+        height: 30px;
+    }
+}
+
+@media(width < 760px){
+	.user-profile{
+        height: 180px;
+        width: 180px;
+    }
+    .profile-label{
+        bottom: 15px;
+        right: 45px;
+    }
+    .cover-label{
+        bottom: 10px;
+        right: 15px;
+    }
+    .cg-input{
+        height: 25px;
+    }
+}
+
+@media(width < 560px){
+    .user-profile{
+        height: 150px;
+        width: 150px;
+    }
+    .profile-label{
+        bottom: 20px;
+        right: 30px;
+    }
+    .cover-label{
+        bottom: 5px;
+        right: 5px;
+    }
+    .cg-input{
+        height: 20px;
+        font-size: 12px;
+    }
+}
+
+@media(width < 460px){
+    .user-profile{
+        height: 120px;
+        width: 120px;
+    }
+    .profile-label{
+        bottom: 15px;
+        right: 25px;
+    }
+}

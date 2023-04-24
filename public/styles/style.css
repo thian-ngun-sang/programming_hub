@@ -1,0 +1,337 @@
+body{
+	overflow-x: hidden;
+}
+
+.newsfeed{
+	align-items: center;
+}
+
+.main-nav{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	display: flex;
+	position: relative;
+}
+
+
+.more-nav-ctn{
+	position: absolute;
+	color: rgb(55, 227, 55);
+	z-index: 2;
+	top: 65px;
+	right: 0px;
+	width: 100vw;
+	height: 100vh;
+}
+
+.bottom-navigator{
+	margin-bottom: 10px;
+}
+
+.main-nav-option{
+	display: none;
+	position: absolute;
+	bottom: 7px;
+	right: 10px;
+}
+
+.main-content{
+	width: 60%;
+	align-self: center;
+}
+
+.left-sidebar, .right-sidebar{
+	width: 20%;
+}
+
+.newsfeed-file-ctn{
+	width: 100%;
+	height: 380px;
+	object-fit: cover;
+}
+
+.bg-dark{
+	background-color: black;
+}
+
+.bg-yellow{
+	background-color: #fd9800;
+}
+
+.text-align-right{
+	text-align: right;
+}
+
+.text-align-center{
+	text-align: center;
+}
+
+.position-relative{
+	position: relative;
+}
+
+.position-absolute{
+	position: absolute;
+}
+
+.position-fixed{
+	position: fixed;
+}
+
+.cdisabled-input{
+	background-color: white;
+	color: black;
+	border: none;
+	border-radius: 3px;
+}
+
+.ctlink{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.cmt-4{
+	margin-top: 4px;
+}
+
+.cmt-10{
+	margin-top: 10px;
+}
+
+.reaction-container{
+	top: -20px;
+	left: 30px;
+	right: 30px;
+	justify-content: space-between;
+	padding: 0px 5px;
+}
+
+.one-two-one{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+}
+
+.two-three-one{
+	display: grid;
+	grid-template-columns: 2fr 3fr 1fr;
+}
+
+.chover-btn{
+	display: inline-block;
+}
+
+.c-bg-near-gray{
+	background-color: rgb(94, 98, 101);
+}
+
+.d-inline-block{
+	display: inline-block;
+}
+
+.del-urderline{
+	text-decoration: none;
+}
+
+.content-center{
+	justify-content: space-around;
+}
+
+.mt-5px{
+	margin-top: 10px;
+}
+
+.bd-rd-5{
+	border-radius: 5px;
+}
+
+#mc{
+	position: relative;
+	left: 30px;
+}
+
+.fs-16{
+	font-size: 16px;
+}
+
+.c-icon{
+	width: 25px;
+	height: 25px;
+	padding: 0px;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.sqicon{
+	width: 25px;
+	height: 25px;
+	padding: 0px;
+	background-color: white;
+}
+
+.icon-small{
+	width: 20px;
+	height: 20px;
+	padding: 0px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.icon-xsmall-noraius{
+	width: 15px;
+	height: 15px;
+	padding: 0px;
+	background-color: white;
+}
+
+#search-bar{
+	padding-left: 30px;
+	width: 400px;
+	height: 40px;
+}
+
+.cursor-pointer:hover{
+	cursor: pointer;
+}
+
+.on-blue:target{
+	background-color: rgb(26, 120, 235);
+}
+
+@media(width < 1000px){
+	.left-sidebar, .right-sidebar{
+		width: 10%;
+	}
+	#search-bar{
+		width: 300px;
+		height: 35px;
+	}
+	.main-content{
+		width: 80%;
+	}
+	.sqicon{
+		width: 20px;
+		height: 20px;
+	}
+}
+
+@media(width < 760px){
+	.csubmit{
+		font-size: 14px;
+	}
+	.newsfeed-file-ctn{
+		height: 280px;
+	}
+	#search-bar{
+		width: 280px;
+		height: 30px;
+	}
+	.g-form{
+        margin: 0px 80px;
+    }
+}
+
+@media(width < 660px){
+	.left-sidebar, .right-sidebar{
+		width: 5%;
+	}
+	.main-content{
+		width: 90%;
+	}
+	.newsfeed-file-ctn{
+		height: 250px;
+	}
+	#search-bar{
+		width: 250px;
+		height: 30px;
+	}
+	.sqicon{
+		width: 18px;
+		height: 18px;
+	}
+}
+
+@media(width < 560px){
+	.csubmit{
+		font-size: 13px;
+	}
+	.newsfeed-file-ctn{
+		height: 220px;
+	}
+	#search-bar{
+		width: 170px;
+		height: 25px;
+	}
+	.ctlink{
+		font-size: 14px;
+	}
+	.cmt-4{
+		margin-top: 3px;
+	}
+}
+
+@media(width < 530px){
+	.main-nav{
+		display: block;
+		margin-left: 5px;
+	}
+	.search-container{
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+	}
+	.nav-item{
+		display: none;
+	}
+	.main-nav-option{
+		display: block;
+	}
+	.bottom-navigator{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.ctlink{
+		font-size: 13px;
+	}
+	*{
+		font-size: 13px;
+	}
+}
+
+@media(width < 460px){
+	#search-bar{
+		width: 170px;
+	}
+	.left-sidebar, .right-sidebar{
+		width: 2.5%;
+	}
+	.main-content{
+		width: 95%;
+	}
+	.newsfeed-file-ctn{
+		height: 200px;
+	}
+	.cmt-4{
+		margin-top: 2px;
+	}
+	.g-form{
+        margin: 0px 40px;
+    }
+	*{
+		font-size: 12px;
+	}
+}
+
+@media(width < 360px){
+	.g-form{
+        margin: 0px 40px;
+    }
+	.csubmit{
+		font-size: 10px;
+	}
+	.cmt-4{
+		margin-top: 1px;
+	}
+}
