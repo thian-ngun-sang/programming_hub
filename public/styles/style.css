@@ -31,7 +31,7 @@ body{
 .main-nav-option{
 	display: none;
 	position: absolute;
-	bottom: 7px;
+	bottom: 3px;
 	right: 10px;
 }
 
@@ -168,7 +168,6 @@ body{
 	width: 25px;
 	height: 25px;
 	padding: 0px;
-	background-color: white;
 }
 
 .icon-small{
@@ -263,6 +262,10 @@ body{
 	#search-bar{
 		width: 170px;
 		height: 25px;
+	}
+	.sqicon{
+		width: 16px;
+		height: 16px;
 	}
 	.ctlink{
 		font-size: 14px;

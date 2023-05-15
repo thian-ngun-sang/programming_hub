@@ -48,11 +48,15 @@
 					</div>
 
 					<div class="main-nav-option open-more-navs">
-						<nav class="cursor-pointer" onclick="moreNav(this)">Nav</nav>
+						<!-- <nav class="cursor-pointer" onclick="moreNav(this)">Nav</nav> -->
+						<nav class="cursor-pointer" onclick="moreNav(this)">
+							<img class="sqicon" src="{{ asset('icons/svgs/more.svg') }}"/>
+						</nav>
 					</div>
 
-					<div class="main-nav-option close-more-navs d-none" onclick="closeMoreNav(this)">
-						<nav class="cursor-pointer">CloseNav</nav>
+					<div class="main-nav-option close-more-navs mt-5 d-none" onclick="closeMoreNav(this)">
+						<!-- <nav class="cursor-pointer">CloseNav</nav> -->
+						<img class="sqicon cursor-pointer" src="{{ asset('icons/svgs/close.svg') }}"/>
 					</div>
 				</div>
 				<div class="d-flex content-center bottom-navigator">

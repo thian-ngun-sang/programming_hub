@@ -39,7 +39,6 @@
 									<div data-file-type="video" class="file-ctn">
 										<div class="mt-2">
 											<video class="newsfeed-file-ctn" controls>
-												<!-- <source src="storage/user/posts/videos/{{ $post->user_id }}/{{$post->filename}}"/> -->
 												<source src="/files/user/videos/{{$post->filename}}"/>
 											</video>
 										</div>
@@ -47,7 +46,6 @@
 								@elseif($post->type == 'image')
 									<div data-file-type="image" class="file-ctn">
 										<div class="my-2">
-											<!-- <img style="width: 100%; height: 500px; object-fit: cover;" src="storage/user/posts/images/{{ $post->user_id }}/{{$post->filename}}"/> -->
 											<img class="newsfeed-file-ctn" src="/files/user/images/{{$post->filename}}"/>
 										</div>
 									</div>
@@ -163,7 +161,6 @@
 										<div data-file-type="video" class="file-ctn">
 											<div class="mt-2">
 												<video class="newsfeed-file-ctn" controls>
-													<!-- <source src="storage/user/posts/videos/{{ $post->user_id }}/{{$post->filename}}"/> -->
 													<source src="files/user/videos/{{$post->filename}}"/>
 												</video>
 											</div>
@@ -171,7 +168,6 @@
 									@elseif($post->type == 'image')
 										<div data-file-type="image" class="file-ctn">
 											<div class="my-2">
-												<!-- <img style="width: 100%; height: 500px; object-fit: cover;" src="storage/user/posts/images/{{ $post->user_id }}/{{$post->filename}}"/> -->
 												<img class="newsfeed-file-ctn" src="files/user/images/{{$post->filename}}"/>
 											</div>
 										</div>

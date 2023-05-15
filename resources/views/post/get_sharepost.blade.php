@@ -80,19 +80,15 @@
 					<div onmouseleave="reactionGroupMouseLeave(this)" class="position-absolute reaction-container d-none">
 						<span class="cursor-pointer" onclick="chooseReaction(this, 'Like', 'share-container')">
 							<span class="like-rct fw-800">Like</span>
-							<!-- <img class="rtn-opt" src="/icons/images/like.png"/> -->
 						</span>
 						<span class="cursor-pointer" onclick="chooseReaction(this, 'Unlike', 'share-container')">
 							<span class="unlike-rct fw-800">Unlike</span>
-							<!-- <img class="rtn-opt" src="/icons/images/dislike.png"/> -->
 						</span>
 						<span class="cursor-pointer" onclick="chooseReaction(this, 'Sad', 'share-container')">
 							<span class="sad-rct fw-800">Sad</span>
-							<!-- <img class="rtn-opt" src="/icons/icos/sad.ico"/> -->
 						</span>
 						<span class="cursor-pointer" onclick="chooseReaction(this, 'Haha', 'share-container')">
 							<span class="haha-rct fw-800">Haha</span>
-							<!-- <img class="rtn-opt" src="/icons/icos/haha.ico"/> -->
 						</span>
 					</div>
 					<span onmouseover="defaultReactionHover(this)" onclick="giveReaction(event, 'share-container')"

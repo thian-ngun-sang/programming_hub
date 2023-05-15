@@ -12,7 +12,7 @@
                 <div class="card g-form">
                     <h3 class="card-header text-center">Login</h3>
                     <div class="card-body">
-                        <form method="POST" action="{{ route('login.custom') }}">
+                        <form method="POST" class="text-dark" action="{{ route('login.custom') }}">
                             @csrf
                             <div class="form-group mb-3">
                                 <input type="text" placeholder="Email" id="email" class="form-control" name="email" required
